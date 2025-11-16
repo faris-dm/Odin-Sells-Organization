@@ -8,8 +8,8 @@ function NavBar() {
       {
         /* <img className="w-10 h-10 text-blue-500" src={Logo} alt="" /> */
         <nav className="fixed top-0 left-0 w-full bg-[#0F0F0F] text-white">
-          <div>
-            <div>
+          <div className="flex items-center justify-between py-5 mx-5">
+            <div className="flex items-center gap-3">
               <img className="w-20 h-20" src={Lamp} alt="" />
               <h2 className="text-xl font-[700] text-white text-base/10 hover:text-[#7C3AED]">
                 {" "}
@@ -17,7 +17,7 @@ function NavBar() {
               </h2>
             </div>
 
-            <div>
+            <div className="flex gap-4">
               <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
                 Dowmload
               </h3>
@@ -35,7 +35,7 @@ function NavBar() {
               </h3>
             </div>
 
-            <div>
+            <div className="flex items-center gap-4">
               <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
                 Community
               </h3>{" "}
