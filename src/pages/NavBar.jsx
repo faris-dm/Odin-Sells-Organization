@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo.svg";
+import { Menu } from "lucide-react";
 import Lamp from "./desk-lamp-svgrepo-com.svg";
 
 function NavBar() {
@@ -7,23 +8,19 @@ function NavBar() {
     <>
       {
         /* <img className="w-10 h-10 text-blue-500" src={Logo} alt="" /> */
-        <nav className="fixed top-0 left-0 w-full bg-[#0F0F0F] text-white">
-          <div className="flex items-center justify-between py-5 mx-5">
-            <div className="flex items-center gap-3">
-              <img className="w-20 h-20" src={Lamp} alt="" />
-              <h2 className="text-xl font-[700] text-white text-base/10 hover:text-[#7C3AED]">
-                {" "}
+        <nav className="fixed top-0 left-0 w-full bg-[#0F0F0F] text-white  border-b  m-auto ">
+          <div className="flex items-center justify-between py-2 flex justify-between mx-10  ">
+            <div className="flex items-center gap-3 ">
+              <img className="w-10 h-10" src={Lamp} alt="" />
+              <h2 className="text-[25px] font-[500] text-white text-base/10 hover:text-[#7C3AED]">
                 Odin
               </h2>
             </div>
-
             <div className="flex gap-4 hidden md:flex lg:flex  ">
               <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
                 Download
               </h3>
-              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
-                Dowmload
-              </h3>
+
               <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
                 Pricing
               </h3>
@@ -45,9 +42,7 @@ function NavBar() {
               <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer hidden md:flex lg:flex">
                 Accounts
               </h3>
-              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer md:hidden lg:hidden text-[20px]">
-                &#9776;
-              </h3>
+              <Menu className="text-[#b0b0b0] text-lg font-[600] hover:text-white cursor-pointer md:hidden lg:hidden text-[20px]" />
             </div>
           </div>
         </nav>
