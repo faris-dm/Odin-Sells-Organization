@@ -17,7 +17,10 @@ function NavBar() {
               </h2>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 hidden md:flex lg:flex  ">
+              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
+                Download
+              </h3>
               <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
                 Dowmload
               </h3>
@@ -36,11 +39,14 @@ function NavBar() {
             </div>
 
             <div className="flex items-center gap-4">
-              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
+              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer  hidden md:flex lg:flex">
                 Community
               </h3>{" "}
-              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer">
+              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer hidden md:flex lg:flex">
                 Accounts
+              </h3>
+              <h3 className="text-[#b0b0b0] font-[600] hover:text-white cursor-pointer md:hidden lg:hidden text-[20px]">
+                &#9776;
               </h3>
             </div>
           </div>
