@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import NavBar from "./pages/NavBar";
 import Sharpe from "./pages/Sharpe";
+import Ideas from "./pages/ideas";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,8 @@ function App() {
     <>
       <div>
         {/* <NavBar /> */}
-        <Sharpe />
+        {/* <Sharpe /> */}
+        <Ideas />
       </div>
     </>
   );

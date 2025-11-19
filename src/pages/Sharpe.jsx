@@ -10,7 +10,7 @@ function Sharpe() {
       <div>
         {/* start  [&>*]:mx-10 md:[&>*]:mx-20 lg:[&>*]:mx-50  flex flex-col items-left justify-center gap-4 text-white  [&>*]:mx-40 */}
         <div className="  grid grid-cols-1 items-center justify-center  lg:mx-[15%] md:mx-[5%] ">
-          <div className="text-6xl font-[500] text-[#EEEEEE] mb-4 mt-12 md:text-yellow-500 lg:text-green-600">
+          <div className="text-6xl font-[500] text-[#EEEEEE] mb-4 mt-12 ">
             {/* title */} Sharpen your thinking.
           </div>
 
@@ -37,8 +37,8 @@ function Sharpe() {
             <img src={images} alt="" />
           </div>
         </div>
-        <section className=" block lg:flex md:block justify-around  items-center gap-8 lg:mx-[10%] md:mx-[7%]">
-          <div className="mx-20 flex-1">
+        <section className="block lg:flex justify-center items-center gap-8 lg:mx-[10%] md:mx-[3%]">
+          <div className="mx-20 md:mx-10 flex-1">
             <div className="border-b py-4 border-[#bcbcbc]">
               {" "}
               <h2 className={h2Text}>Your thoughts are yours.</h2>
@@ -53,8 +53,8 @@ function Sharpe() {
               <h2 className={h2Text}>Your mind is unique.</h2>
               <h5 className={H5_text}>
                 {" "}
-                With thousands of plugins and themes, you can shape Odin to fit
-                your way of thinking{" "}
+                With <a href="#">thousands of plugins</a> and themes, you can
+                shape Odin to fit your way of thinking{" "}
               </h5>
             </div>
             {/*  second ends here */}
@@ -66,21 +66,31 @@ function Sharpe() {
                 your data for the long term.
               </h5>
             </div>
-            {/*  third ends here */}
+            {/*  third enshareds here */}
 
             {/* three text ends here  */}
           </div>
 
-          <div className=" flex-1  items-center justify-center gap-5 py-5">
+          <div className=" flex items-center justify-center gap-1 py-2 lg:py-0">
             {" "}
-            <img
-              src={Logo}
-              className="w-100 h-100 md:w-60 md:h-60 text-center m-4 p-4 bg-[#292929] rounded-[60%] hover:scale-107  hover:bg-[#333] duration-4000 ease-in-out"
-              alt=""
-            />
+            <div className="">
+              <img
+                src={Logo}
+                className=" w-90 h-90  md:w-70 md:h-70   my-[2rem] p-8 bg-[#292929] rounded-[20%] hover:scale-107  hover:bg-[#333] duration-4000 ease-in-out"
+                alt=""
+              />
+              <div className="block text-center">
+                <h4 className="text-white text-4xl font-[700] py-3">Odin</h4>
+                <h6 className=" text-2xl text-white">Free without limit.</h6>
+                <p className="text-[#8B5CF3] text-xl hover:text-white duration-400 ease-in-out   ">
+                  Download Now
+                </p>
+              </div>
+            </div>
             {/*   the images */}
           </div>
         </section>
+        {/*   className=" w-90 h-90  md:w-70 md:h-70  my-8 p-4 bg-[#292929] rounded-[20%] hover:scale-107  hover:bg-[#333] duration-4000 ease-in-out" */}
 
         {/* end */}
       </div>
