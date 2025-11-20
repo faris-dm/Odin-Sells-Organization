@@ -25,39 +25,61 @@ function Ideas() {
               own personal Wikipedia.
             </p>
 
-            <div className="bg-[#171717] text-sm m-2 p-4  md:w-[100%] w-[103%]   rounded-l-xl ">
-              <p className=" text-normal font-[400] mb-[10rem] px-6">
+            <div className="bg-[#171717] text-sm m-2 p-4  md:w-[100%] w-[103%]   rounded-l-xl rounded-b-sm ">
+              <p className=" text-normal font-[400]   mb-[17rem] px-6">
                 {" "}
-                In
-                <a
-                  className="text-[#7c3aed] px-1 underline hover:text[#7c3aea] "
-                  href="#"
-                >
-                  Meditations on First Philosophy
-                </a>{" "}
-                the philosopher René Descartes describes a series of doubts
-                about the nature of reality, arriving at the famous phrase:{" "}
+                <p className="py-2">
+                  In
+                  <a
+                    className="text-[#7c3aed] px-1 underline hover:text[#7c3aea] "
+                    href="#"
+                  >
+                    Meditations on First Philosophy
+                  </a>{" "}
+                  the philosopher René Descartes describes a series of doubts
+                  about the nature of reality, arriving at the famous phrase:
+                </p>{" "}
                 <ul className="list-disc mx-5">
                   <li className="  text-[#7c3aea] underline">[thin]</li>
                 </ul>
                 he discuess the value of Knowladge in the life related to mind
               </p>
-              <div>
-                <div>
+              <div className="absolute bg-[#262626] w-70 py-2  rounded-lg h-47 bottom-[-50%] left-26 ">
+                <div className="px-4 py-1 text-sm   mb-[3px] hover:bg-[#404040]  mx-1 rounded-lg ">
                   {" "}
-                  i <label htmlFor="">think</label> therefore i am{" "}
+                  I{" "}
+                  <label className="font-[600]" htmlFor="">
+                    think
+                  </label>{" "}
+                  therefore i am{" "}
                 </div>
-                <div>
+                <div className="px-4 py-1 text-[16px]  mb-[3px]  hover:bg-[#404040]  mx-1 rounded-lg ">
                   {" "}
-                  just <label htmlFor="">think</label> about it{" "}
+                  just{" "}
+                  <label className="font-[600]" htmlFor="">
+                    think
+                  </label>{" "}
+                  about it{" "}
                 </div>
-                <div>
+                <div className="px-4  mb-[3px] py-1 text-[] hover:bg-[#404040]  mx-1 rounded-lg">
                   {" "}
-                  <label htmlFor="">thinking</label> fast & slow{" "}
+                  <p className="text-[16px]">
+                    {" "}
+                    <label htmlFor="" className="font-[600] text-white">
+                      Thinking
+                    </label>{" "}
+                    fast & slow
+                  </p>
+                  <p className="text-sm">Books/</p>
                 </div>
-                <div>
+
+                <div className="px-4  mb-[3px] py-1 text-[16px]   hover:bg-[#404040]  mx-1 rounded-lg">
                   {" "}
-                  the <label htmlFor="">thing</label> t{" "}
+                  the{" "}
+                  <label className="font-[600] text-[#fff]" htmlFor="">
+                    Thing
+                  </label>{" "}
+                  <p className="text-sm  mb-[3px]">Movies/</p>
                 </div>
               </div>
             </div>
@@ -65,10 +87,29 @@ function Ideas() {
             {/* frist grid */}
           </div>
 
-          <div className="bg-[#222]  m-4  p-2 rounded-xl ">
+          <div className="bg-[#242424]  m-4  p-6 rounded-xl  ">
             {" "}
-            <h4>Links</h4>
-            <p className="">
+            <h4 className="text-lg font-[700]">Links</h4>
+            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10 ">
+              Create connections between your notes. Link anything and
+              everything — ideas, people, places, books, and beyond. Invent your
+              own personal Wikipedia.
+            </p>
+            <div className="bg-[#000] text-sm m-2 p-4  rounded-xl">
+              <p className=" text-normal font-[400]   mb-[17rem] px-6">
+                {" "}
+                In Meditations on First Philosophy the philosopher René
+                Descartes describes a series of doubts about the nature of
+                reality, arriving at the famous phrase:{" "}
+              </p>
+            </div>
+            {/* frist grid */}
+          </div>
+
+          <div className="bg-[#242424]  m-4  p-6 rounded-xl ">
+            {" "}
+            <h4 className="text-lg font-[700]">Links</h4>
+            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
               Create connections between your notes. Link anything and
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
@@ -84,29 +125,10 @@ function Ideas() {
             {/* frist grid */}
           </div>
 
-          <div className="bg-[#222]  m-4  p-2 rounded-xl ">
+          <div className="bg-[#242424]  m-4  p-6 rounded-xl ">
             {" "}
-            <h4>Links</h4>
-            <p>
-              Create connections between your notes. Link anything and
-              everything — ideas, people, places, books, and beyond. Invent your
-              own personal Wikipedia.
-            </p>
-            <div className="bg-[#000] text-sm m-2 p-4  rounded-xl">
-              <p className="mb-[10rem]">
-                {" "}
-                In Meditations on First Philosophy the philosopher René
-                Descartes describes a series of doubts about the nature of
-                reality, arriving at the famous phrase:{" "}
-              </p>
-            </div>
-            {/* frist grid */}
-          </div>
-
-          <div className="bg-[#222]  m-4  p-2 rounded-xl">
-            {" "}
-            <h4>Links</h4>
-            <p>
+            <h4 className="text-lg font-[700]">Links</h4>
+            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
               Create connections between your notes. Link anything and
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
