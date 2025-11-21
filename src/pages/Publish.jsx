@@ -1,6 +1,20 @@
 import React from "react";
 import DarkImages from "./images/odinImages.png";
 import Logo from "./desk-lamp-svgrepo-com.svg";
+import {
+  FaFacebook,
+  FaDiscord,
+  FaMastodon,
+  FaGithub,
+  FaTwitter,
+  FaTelegram,
+  FaYoutube,
+  FaInstagram,
+} from "react-icons/fa";
+
+import { ChartLine, Palette, FilePenLine } from "lucide-react";
+
+const discord = "./images/discord.png";
 
 function Publish() {
   const ContinerStyle = "text-white mx-6 lg:mx-[15%] md:mx-[5%]";
@@ -8,7 +22,7 @@ function Publish() {
   const HeadingText =
     "w-[86%] text-[#BCBCBC]  text-xl  md:text-2xl md:text-[23px] lg:w-[50%]";
   const gridSections = "my-4 flex md:block   gap-2 items-start py-4 px-3";
-  const ImagesStyle = "w-10 h-10 gap-2  md:my-2";
+  const ImagesStyle = "w-10 h-10 gap-2  md:my-2 text-[#7c3aea]";
   const LabelStyle = "text-white font-bold  md:block";
   const ScreenImages = "rounded-xl cursor-pointer ";
   const ScreenText = "text-center text-[#bcbcbc]  font-normal py-8";
@@ -29,7 +43,7 @@ function Publish() {
 
         <div className="mb-30 lg:mb-10 mt-5 md:flex">
           <div className={gridSections}>
-            <img className={ImagesStyle} src={Logo} alt="" />
+            <ChartLine className={ImagesStyle} />
             <h5 className="text-lg text-[#bcbcbc]">
               {" "}
               <label className={LabelStyle}>Seamless editing. </label>{" "}
@@ -42,7 +56,7 @@ function Publish() {
           </div>
           {/*  2nd dev */}
           <div className={gridSections}>
-            <img className={ImagesStyle} src={Logo} alt="" />
+            <Palette className={ImagesStyle} src={Logo} />
             <h5 className="text-lg text-[#bcbcbc]">
               {" "}
               <label className={LabelStyle}> Customization.</label> Control the
@@ -51,7 +65,7 @@ function Publish() {
             </h5>
           </div>
           <div className={gridSections}>
-            <img className={ImagesStyle} src={Logo} alt="" />
+            <FilePenLine className={ImagesStyle} />
             <h5 className="text-lg text-[#bcbcbc]">
               {" "}
               <label className={LabelStyle}> Optimized for performance</label>.
@@ -91,7 +105,7 @@ function Publish() {
             {/*  title section */}
           </div>
           <div className="block md:flex items-center gap-4 ">
-            <div className=" bg-[#333] m-2 rounded-lg p-3 my-5">
+            <div className=" bg-[#333] m-2 rounded-lg p-3">
               <h2 className="text-xl font-normal text-[#fff] py-5">
                 Join Us On Discord
               </h2>
@@ -102,29 +116,143 @@ function Publish() {
             </div>
             {/* frist grid */}
 
-            <div className="bg-[#333] m-2 rounded-lg p-3  my-5">
+            <div className="bg-[#333]  rounded-lg p-3 mb-8 mt-6 ">
               <h2 className="text-xl font-normal text-[#fff] py-5 ">
                 Discussion Forum
               </h2>
-              <p className="text-[#bcbcbc]  text-lg">
+              <p className="text-[#bcbcbc] text-lg">
                 Post feature request Report bags and explore with all
               </p>
             </div>
             {/* 2nd dev  */}
 
-            <div className="bg-[#333] m-2 rounded-lg p-3 my-5">
+            <div className="bg-[#333] m-2 rounded-lg p-3">
               <h2 className="text-xl font-normal text-[#fff] py-5">
                 Developer docs
               </h2>
               <p className="text-[#bcbcbc]  text-lg ">
                 Learn how to bulid your own Odin using open API and
-                Documantation{" "}
+                Documantation
               </p>
             </div>
             {/* thrid dev */}
 
             {/* Last Grid section  */}
           </div>
+          <div className=" md:grid grid-cols-2">
+            <div className="grid grid-cols-2 my-10">
+              {/*  uses flex */}
+              <div>
+                <h2 className="text-[#bcbcbc] mb-3  font-[500] text-[15px] ">
+                  {" "}
+                  Get started
+                </h2>
+                <h2 className="py-1 font-[500] text-[15px]">Download</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Pricing</h2>
+                <h2 className="py-1 font-[500] text-[15px]"> Enterprise</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Account</h2>
+              </div>
+              {/*  Get Started end here */}
+              <div>
+                <h2 className=" text-[#bcbcbc] mb-3 ">Learn</h2>
+                <h2 className="py-1 font-[500] text-[15px]"> Help</h2>
+                <h2 className="py-1 font-[500] text-[15px]"> Developers</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Changelog </h2>
+                <h2 className="py-1 font-[500] text-[15px]"> About</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Roadmap </h2>
+                <h2 className="py-1 font-[500] text-[15px]"> Blog</h2>
+              </div>
+            </div>
+            {/* Learn ends here */}
+            <div className="grid grid-cols-2 my-4 ">
+              <div>
+                <h2 className=" text-[#bcbcbc] "> ODIN</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Sync</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Publish</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Canvas</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Mobile</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Web Clipper</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Overview</h2>
+                <h2 className="py-1 font-[500] text-[15px]">Plugins</h2>
+
+                {/* overview */}
+              </div>
+
+              <div>
+                <h2 className="text-[#bcbcbc]"> Resources</h2>
+                <h2 className="py-1 font-[500] text-[15px]">System Status </h2>
+                <h2 className="py-1 font-[500] text-[15px]"> </h2>
+                <h2 className="py-1 font-[500] text-[15px]">
+                  {" "}
+                  Licence overview
+                </h2>
+                <h2 className="py-1 font-[500] text-[15px]">
+                  Terms of services
+                </h2>
+                <h2 className="py-1 font-[500] text-[15px]"> privacy Policy</h2>
+                <h2 className="py-1 font-[500] text-[15px]"> Security</h2>
+
+                {/*  solo */}
+              </div>
+              {/* <div>
+                <h2>Community</h2>
+                <h2> Join the community</h2>
+                <h2>Discord </h2>
+                <h2>Forum / 中文论坛 </h2>
+                <h2> Merch store</h2>
+                <h2>Brand guidelines</h2>
+              </div> */}
+            </div>
+
+            {/* Odin ends Here */}
+          </div>
+          <div className="flex justify-between items-center mb-8">
+            <div className="flex gap-2 items-center">
+              <img className="w-10 h-10" src={Logo} alt="" />
+              <h2 className="font-[500] ">Odin</h2>
+            </div>
+            {/*  frist  Logo */}
+            <div className="flex gap-4">
+              <FaDiscord className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaFacebook className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaMastodon className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaGithub className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaTwitter className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaTelegram className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaYoutube className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+              <FaInstagram className="text-[#333] hover:text-[#7c3aed] cursor-pointer " />
+            </div>{" "}
+            <div>
+              <p className="text-xs text-[#b0b0b0] cursor-pointer">
+                {" "}
+                &copy; 2025
+              </p>
+            </div>
+            {/* second  */}
+            {/* <div className="flex gap-2 items-center">
+                <img className="w-10 h-10" src={Logo} alt="" />
+                <h2>Odin</h2>
+              </div> */}
+            {/* <div className="flex">
+                <div className="flex">
+                  <FaDiscord />
+
+                  <FaFacebook />
+                  <FaMastodon />
+                  <FaGithub />
+                </div>
+                <div className="flex">
+                  <FaTwitter />
+                  <FaTelegram />
+                  <FaYoutube />
+                  <FaInstagram className="text-[#333] hover:text-[#7c3aed] " />
+                </div>
+              </div> */}
+            {/* <div>
+                <p> &copy; 2025 Odin</p>
+              </div> */}
+          </div>
+          {/*  final Links */}
         </div>
       </div>
     </>

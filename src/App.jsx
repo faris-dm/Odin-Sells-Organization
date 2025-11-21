@@ -14,10 +14,10 @@ function App() {
   return (
     <>
       <div>
-        {/* <NavBar /> */}
-        {/* <Sharpe /> */}
+        <NavBar />
+        <Sharpe />
         {/* <Ideas /> */}
-        <Publish />
+        {/* <Publish /> */}
       </div>
     </>
   );
