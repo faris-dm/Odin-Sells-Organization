@@ -99,7 +99,7 @@ function Publish() {
             >
               It's your time to shine.
             </p>
-            <button className=" text-white   w-[45%] md:w-[25%] md:text-2xl bg-[#7c3aed]   hover:bg-[7c3aea] rounded-xl text-xl  mb-13 py-5">
+            <button className="text-white   w-[45%] md:w-[25%] md:text-2xl bg-[#7c3aed]   hover:bg-[7c3aea] rounded-xl text-xl  mb-13 py-5">
               Get Odin
             </button>
             {/*  title section */}

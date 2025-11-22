@@ -9,13 +9,16 @@ function Sharpe() {
     <>
       <div>
         {/* start  [&>*]:mx-10 md:[&>*]:mx-20 lg:[&>*]:mx-50  flex flex-col items-left justify-center gap-4 text-white  [&>*]:mx-40 */}
-        <div className="  grid grid-cols-1 items-center justify-center  lg:mx-[15%] md:mx-[5%] ">
-          <div className="text-6xl font-[500] text-[#EEEEEE] mb-4 mt-12 ">
+        <div className="  grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] ">
+          <div
+            className="text-4xl   
+          lg:text-6xl md:text-4xl font-[500] text-[#EEEEEE] mb-4 mt-12 "
+          >
             {/* title */} Sharpen your thinking.
           </div>
 
-          <div className="flex  items-center justify-between  gap-40 text-[#B6B6B6] text-4xl font-[400] py-2 ">
-            <div className="  w-[70%]">
+          <div className="flex  items-center justify-between  gap-40 text-[#B6B6B6] text-4xl mx-3 font-[400] py-2 ">
+            <div className=" text-2xl w-[70%]">
               {" "}
               {/* subtitle */} The free and flexible app for your private
               thoughts.
@@ -76,7 +79,7 @@ function Sharpe() {
             <div className="">
               <img
                 src={Logo}
-                className=" w-90 h-90  md:w-70 md:h-70   my-[2rem] p-8 bg-[#292929] rounded-[20%] hover:scale-107  hover:bg-[#333] duration-4000 ease-in-out"
+                className=" w-50 h-50  md:w-50 md:h-50   my-[2rem] p-8 bg-[#292929] rounded-[20%] hover:scale-107  hover:bg-[#333] duration-4000 ease-in-out"
                 alt=""
               />
               <div className="block text-center">
