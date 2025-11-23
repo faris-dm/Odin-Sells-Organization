@@ -15,8 +15,8 @@ function App() {
     <>
       <div>
         <NavBar />
-        <Sharpe />
-        {/* <Ideas /> */}
+        {/* <Sharpe /> */}
+        <Ideas />
         {/* <Publish /> */}
       </div>
     </>

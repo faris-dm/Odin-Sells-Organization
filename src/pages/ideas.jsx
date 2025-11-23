@@ -16,8 +16,8 @@ function Ideas() {
           </p>
         </div>
         {/* grid cols */}
-        <div className="grid grid-cols-1  md:grid-cols-2  lg:grid-cols-2 bg-[#000]">
-          <div className="bg-[#242424]  m-4  p-6 rounded-xl  ">
+        <div className="grid grid-cols-1  md:grid-cols-2 md:h  lg:grid-cols-2 ">
+          <div className="bg-[#242424]  m-2  p-6 rounded-xl  ">
             <h4 className="text-lg font-[700]">Links</h4>
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10 ">
               Create connections between your notes. Link anything and
@@ -25,10 +25,10 @@ function Ideas() {
               own personal Wikipedia.
             </p>
 
-            <div className="bg-[#171717] text-sm m-2 p-4  md:w-[100%] w-[103%]   rounded-l-xl rounded-b-sm ">
-              <p className=" text-normal font-[400]   mb-[17rem] px-6">
+            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
+              <p className=" text-normal font-[400]   md:mb-[14rem] mb-[10rem] px-6">
                 {" "}
-                <p className="py-2">
+                <p className="py-2 z--1">
                   In
                   <a
                     className="text-[#7c3aed] px-1 underline hover:text[#7c3aea] "
@@ -44,7 +44,7 @@ function Ideas() {
                 </ul>
                 he discuess the value of Knowladge in the life related to mind
               </p>
-              <div className="absolute bg-[#262626] w-70 py-2  rounded-lg h-47 bottom-[-50%] left-26 ">
+              <div className="absolute bg-[#262626] w-70 py-2  rounded-lg h-47 bottom-[40%] md:left-8 md:w-65 left-26 ">
                 <div className="px-4 py-1 text-sm   mb-[3px] hover:bg-[#404040]  mx-1 rounded-lg ">
                   {" "}
                   I{" "}
@@ -79,7 +79,7 @@ function Ideas() {
                   <label className="font-[600] text-[#fff]" htmlFor="">
                     Thing
                   </label>{" "}
-                  <p className="text-sm  mb-[3px]">Movies/</p>
+                  <p className="text-sm  ">Movies/</p>
                 </div>
               </div>
             </div>

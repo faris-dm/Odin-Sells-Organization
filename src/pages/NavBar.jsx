@@ -10,7 +10,7 @@ function NavBar() {
   };
 
   const style =
-    "fixed top-0 left-0 w-full bg-[#0F0F0F] text-white  md:border-b  lg:border-b  px-10 lg:px-0 md:px-0 ";
+    "fixed top-0 left-0 w-full bg-[#0F0F0F] text-white  md:border-b  lg:border-b  z-1 px-10 lg:px-0 md:px-0 ";
   const GridStyles =
     "sm:grid md:grid lg:grid  grid-cols-2 mx-10 mb-6 border-b pb-3 border-[#b0b0b0]";
   const TextStyle =
