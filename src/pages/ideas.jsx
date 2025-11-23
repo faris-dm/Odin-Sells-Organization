@@ -44,7 +44,7 @@ function Ideas() {
                 </ul>
                 he discuess the value of Knowladge in the life related to mind
               </p>
-              <div className="absolute bg-[#262626] w-70 py-2  rounded-lg h-47 bottom-[40%] md:left-8 md:w-65 left-26 ">
+              <div className="absolute bg-[#262626] w-70 py-2  rounded-lg h-47 bottom-[18%] md:left-8 md:w-65 left-8 ">
                 <div className="px-4 py-1 text-sm   mb-[3px] hover:bg-[#404040]  mx-1 rounded-lg ">
                   {" "}
                   I{" "}
@@ -95,8 +95,8 @@ function Ideas() {
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
             </p>
-            <div className="bg-[#000] text-sm m-2 p-4  rounded-xl">
-              <p className=" text-normal font-[400]   mb-[17rem] px-6">
+            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
+              <p className="  text-normal font-[400]   md:mb-[14rem] mb-[10rem] px-6">
                 {" "}
                 In Meditations on First Philosophy the philosopher René
                 Descartes describes a series of doubts about the nature of
@@ -114,7 +114,7 @@ function Ideas() {
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
             </p>
-            <div className="bg-[#000] text-sm m-2 p-4  rounded-xl">
+            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
               <p className="mb-[10rem]">
                 {" "}
                 In Meditations on First Philosophy the philosopher René
@@ -133,7 +133,7 @@ function Ideas() {
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
             </p>
-            <div className="bg-[#000] text-sm m-2 p-4   rounded-xl">
+            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
               <p className="mb-[10rem]">
                 {" "}
                 In Meditations on First Philosophy the philosopher René
