@@ -1,6 +1,11 @@
 import React from "react";
+import Switch from "./switch";
+import { Settings, Clock, Users } from "lucide-react";
 
 function Ideas() {
+  const gridSections = "my-4 flex md:block   gap-2 items-start py-4 px-3";
+
+  const ImagesStyle = "w-10 h-10 gap-2  md:my-2 text-[#7c3aea]";
   return (
     <>
       <div className="text-white  bg-[#000000]  md:px-[5%]   lg:px-[5%] ">
@@ -9,14 +14,14 @@ function Ideas() {
             {" "}
             Spark ideas.
           </h2>
-          <p className="text-lg  :text-2xl text-[#BCBCBC]  text-left  ">
+          <p className="text-lg  :text-2xl text-[#BCBCBC]  text-left ">
             From personal notes to journaling, knowledge bases, and project
             management, Obsidian gives you the tools to come up with ideas and
             organize them.
           </p>
         </div>
         {/* grid cols */}
-        <div className="grid grid-cols-1  md:grid-cols-2 md:h  lg:grid-cols-2 ">
+        <div className="grid grid-cols-1  md:grid-cols-2   md:h  lg:grid-cols-2 ">
           <div className="bg-[#242424]  m-2  p-6 rounded-xl  ">
             <h4 className="text-lg font-[700]">Links</h4>
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10 ">
@@ -25,7 +30,7 @@ function Ideas() {
               own personal Wikipedia.
             </p>
 
-            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
+            <div className="bg-[#171717] text-sm md:h-[50%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
               <p className=" text-normal font-[400]   md:mb-[14rem] mb-[10rem] px-6">
                 {" "}
                 <p className="py-2 z--1">
@@ -108,18 +113,20 @@ function Ideas() {
 
           <div className="bg-[#242424]  m-4  p-6 rounded-xl ">
             {" "}
-            <h4 className="text-lg font-[700]">Links</h4>
+            <h4 className="text-lg font-[700]">Plugins</h4>
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
-              Create connections between your notes. Link anything and
-              everything — ideas, people, places, books, and beyond. Invent your
-              own personal Wikipedia.
+              space .with thousands of plugins and our open API ,it is to tailer
+              Odin to fit your personal workflow{" "}
+              <a className="text-[#7c3aea]" href="#">
+                Learn More
+              </a>
             </p>
             <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
-              <p className="mb-[10rem]">
-                {" "}
-                In Meditations on First Philosophy the philosopher René
-                Descartes describes a series of doubts about the nature of
-                reality, arriving at the famous phrase:{" "}
+              <p className="mb-[5rem]">
+                <div>
+                  <div>{/* lecture */}</div>
+                  <div>{/* images */}</div>
+                </div>
               </p>
             </div>
             {/* frist grid */}
@@ -129,20 +136,119 @@ function Ideas() {
             {" "}
             <h4 className="text-lg font-[700]">Links</h4>
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
-              Create connections between your notes. Link anything and
-              everything — ideas, people, places, books, and beyond. Invent your
-              own personal Wikipedia.
+              Visualize the relationships between your notes. Find hidden
+              patterns in your thinking through a visually engaging and
+              interactive graph.
             </p>
-            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
-              <p className="mb-[10rem]">
+            <div className="bg-[#171717] text-sm h-[50%] md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
+              <p className="mb-[10rem] ">
                 {" "}
-                In Meditations on First Philosophy the philosopher René
-                Descartes describes a series of doubts about the nature of
-                reality, arriving at the famous phrase:{" "}
+                <div>
+                  <h2>Community Plugins</h2>
+                  <div className="flex justify-between py-3 border-b">
+                    <div className="text-xs">
+                      <p className="">
+                        Calender{" "}
+                        <label className="text-[#b0b0b0]  ">by Lima cain</label>
+                      </p>
+                      <p className="text-[#b0b0b0]">
+                        Calender vieew fo your daily notes
+                      </p>
+                    </div>
+                    <Switch />
+                  </div>
+                  {/* frist setion */}
+                  <div className="flex justify-between py-3 border-b">
+                    <div className="">
+                      <p className="">
+                        Kanban by{" "}
+                        <label className="text-[#b0b0b0]  ">
+                          Matthew Meyers
+                        </label>
+                      </p>
+                      <p className="text-[#b0b0b0]  ">
+                        {" "}
+                        Markdown-backed kanba boards
+                      </p>
+                    </div>
+                    <Switch />
+                  </div>
+                  {/* 3rd section */}
+                  <div className="flex justify-between py-3 border-b">
+                    <div>
+                      <p>
+                        Outliner by{" "}
+                        <label className="text-[#b0b0b0]  ">
+                          by Viacheslave cain
+                        </label>
+                      </p>
+                      <p className="text-[#b0b0b0]  ">
+                        Advanced queries for the data{" "}
+                      </p>
+                    </div>
+                    <Switch />
+                  </div>
+                  {/*  fourth section */}
+                  <div className="flex justify-between py-3">
+                    <div>
+                      <p>
+                        DaraView by{" "}
+                        <label className="text-[#b0b0b0]  ">
+                          by Michail Berham cain
+                        </label>
+                      </p>
+                      <p className="text-[#b0b0b0]  ">
+                        Advanved queries for data-obessed view
+                      </p>
+                    </div>
+                    <Switch />
+                  </div>
+                </div>
               </p>
             </div>
             {/* frist grid */}
           </div>
+          {/*  final touch  */}
+
+          <div className="">
+            <h2>Sync securely.</h2>
+            <h4>
+              Access your notes on any device, secured with end-to-end
+              encryption. <a href="#"> Learn more.</a>
+            </h4>
+            <div>
+              <div className={gridSections}>
+                <Users className={ImagesStyle} />
+                <h3>
+                  {" "}
+                  Collaboration. Work with your team on shared files without
+                  compromising your private data.{" "}
+                </h3>
+                {/* frist dev */}
+              </div>
+              <div className={gridSections}>
+                <Settings className={ImagesStyle} />
+                <h3>
+                  Fine-grained control. Decide which files and preferences you
+                  want to sync to which devices.{" "}
+                </h3>
+
+                {/* 2nd dev */}
+              </div>
+
+              <div className={gridSections}>
+                <Clock className={ImagesStyle} />
+                <h3>
+                  {" "}
+                  Version history. Easily track changes between revisions, with
+                  one year of version history for every note.{" "}
+                </h3>
+                {/* third dev */}
+              </div>
+            </div>
+          </div>
+
+          {/*  three  ends here */}
         </div>
       </div>
     </>

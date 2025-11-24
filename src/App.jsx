@@ -14,7 +14,8 @@ function App() {
   return (
     <>
       <div>
-        <NavBar />
+        {/* <Login /> */}
+        {/* <NavBar /> */}
         {/* <Sharpe /> */}
         <Ideas />
         {/* <Publish /> */}
