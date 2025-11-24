@@ -1,6 +1,8 @@
 import React from "react";
 import DarkImages from "./images/odinImages.png";
 import Logo from "./desk-lamp-svgrepo-com.svg";
+
+import SYncImg from "./images/syOne.png";
 import {
   FaFacebook,
   FaDiscord,

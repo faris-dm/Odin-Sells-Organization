@@ -1,20 +1,22 @@
 import React from "react";
 import Switch from "./switch";
 import { Settings, Clock, Users } from "lucide-react";
+import SYncImg from "./images/syOne.png";
 
 function Ideas() {
   const gridSections = "my-4 flex md:block   gap-2 items-start py-4 px-3";
+  const syncSections = "my-4 flex    gap-2 items-start py-4 px-3";
 
   const ImagesStyle = "w-10 h-10 gap-2  md:my-2 text-[#7c3aea]";
   return (
     <>
       <div className="text-white  bg-[#000000]  md:px-[5%]   lg:px-[5%] ">
-        <div className=" mx-[5%]  m-5">
+        <div className=" mx-[5%]   m-5  md:w-[70%] lg:w-[55%]  md:ml-50">
           <h2 className=" text-[#EEEEEE text-5xl py-5 font-[600]">
             {" "}
             Spark ideas.
           </h2>
-          <p className="text-lg  :text-2xl text-[#BCBCBC]  text-left ">
+          <p className="text-lg  md:text-xl text-[#BCBCBC]  text-left ">
             From personal notes to journaling, knowledge bases, and project
             management, Obsidian gives you the tools to come up with ideas and
             organize them.
@@ -24,7 +26,7 @@ function Ideas() {
         <div className="grid grid-cols-1  md:grid-cols-2   md:h  lg:grid-cols-2 ">
           <div className="bg-[#242424]  m-2  p-6 rounded-xl  ">
             <h4 className="text-lg font-[700]">Links</h4>
-            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10 ">
+            <p className="text-[18px]  text-[#BCBCBC] font-[600] mb-10 ">
               Create connections between your notes. Link anything and
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
@@ -117,7 +119,7 @@ function Ideas() {
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
               space .with thousands of plugins and our open API ,it is to tailer
               Odin to fit your personal workflow{" "}
-              <a className="text-[#7c3aea]" href="#">
+              <a className="text-[#7c3aea] cursor-pointer" href="#">
                 Learn More
               </a>
             </p>
@@ -210,45 +212,61 @@ function Ideas() {
           </div>
           {/*  final touch  */}
 
-          <div className="">
-            <h2>Sync securely.</h2>
-            <h4>
-              Access your notes on any device, secured with end-to-end
-              encryption. <a href="#"> Learn more.</a>
-            </h4>
-            <div>
-              <div className={gridSections}>
-                <Users className={ImagesStyle} />
-                <h3>
-                  {" "}
-                  Collaboration. Work with your team on shared files without
-                  compromising your private data.{" "}
-                </h3>
-                {/* frist dev */}
-              </div>
-              <div className={gridSections}>
-                <Settings className={ImagesStyle} />
-                <h3>
-                  Fine-grained control. Decide which files and preferences you
-                  want to sync to which devices.{" "}
-                </h3>
-
-                {/* 2nd dev */}
-              </div>
-
-              <div className={gridSections}>
-                <Clock className={ImagesStyle} />
-                <h3>
-                  {" "}
-                  Version history. Easily track changes between revisions, with
-                  one year of version history for every note.{" "}
-                </h3>
-                {/* third dev */}
-              </div>
-            </div>
-          </div>
-
           {/*  three  ends here */}
+        </div>
+        <div className=" my-10 mx-10 ">
+          <div className="lg:flex items-center justify-center gap-5">
+            <section className=" flex-1">
+              <div className=" ">
+                <div className="w-[90%]">
+                  <h2 className=" text-[#EEEEEE text-5xl py-5 font-[600]">
+                    Sync securely.
+                  </h2>
+                  <h4 className=" text-2xl text-[#BCBCBC]  text-left">
+                    Access your notes on any device, secured with end-to-end
+                    encryption.{" "}
+                    <a className="text-[#7c3aea] cursor-pointer" href="#">
+                      {" "}
+                      Learn more.
+                    </a>
+                  </h4>
+                </div>
+                <div className=" my-4 items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl">
+                  <Users size={50} className=" text-[#7c3aea]" />
+                  <h3>
+                    {" "}
+                    Collaboration. Work with your team on shared files without
+                    compromising your private data.{" "}
+                  </h3>
+                  {/* frist dev */}
+                </div>
+                <div className=" my-4 items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl">
+                  <Settings size={50} className="  text-[#7c3aea]" />
+                  <h3>
+                    Fine-grained control. Decide which files and preferences you
+                    want to sync to which devices.{" "}
+                  </h3>
+
+                  {/* 2nd dev */}
+                </div>
+
+                <div className=" my-4 items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl">
+                  <Clock size={50} className="   text-[#7c3aea]" />
+                  <h3>
+                    {" "}
+                    Version history. Easily track changes between revisions,
+                    with one year of version history for every note.{" "}
+                  </h3>
+                  {/* third dev */}
+                </div>
+              </div>
+            </section>
+
+            {/*  sections  for  the images and ariticle */}
+            <article className="flex-1">
+              <img src={SYncImg} alt="" />
+            </article>
+          </div>
         </div>
       </div>
     </>
