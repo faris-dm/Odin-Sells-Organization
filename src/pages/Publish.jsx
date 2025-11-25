@@ -19,7 +19,7 @@ import { ChartLine, Palette, FilePenLine } from "lucide-react";
 const discord = "./images/discord.png";
 
 function Publish() {
-  const ContinerStyle = "text-white mx-6 lg:mx-[15%] md:mx-[5%]";
+  const ContinerStyle = "text-white lg:mx-[15%] md:mx-[5%] mt-[10%]  mx-10";
   const HeadingTitle = "text-4xl  text-white font-[600] py-5 lg:text-6xl";
   const HeadingText =
     "w-[86%] text-[#BCBCBC]  text-xl  md:text-2xl md:text-[23px] lg:w-[50%]";

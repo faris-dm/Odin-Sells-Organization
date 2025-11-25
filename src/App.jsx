@@ -5,7 +5,7 @@ import "./App.css";
 import NavBar from "./pages/NavBar";
 import Sharpe from "./pages/Sharpe";
 import Ideas from "./pages/ideas";
-import Counter from "./pages/Counter";
+
 import Publish from "./pages/publish";
 
 function App() {
@@ -14,10 +14,9 @@ function App() {
   return (
     <>
       <div>
-        {/* <Login /> */}
-        {/* <NavBar /> */}
+        <NavBar />
         {/* <Sharpe /> */}
-        <Ideas />
+        {/* <Ideas /> */}
         {/* <Publish /> */}
       </div>
     </>

@@ -7,12 +7,12 @@ function Sharpe() {
   const H5_text = "text-[#bcbcbc] text-[24px]";
   return (
     <>
-      <div>
+      <div className="mb-[10rem]">
         {/* start  [&>*]:mx-10 md:[&>*]:mx-20 lg:[&>*]:mx-50  flex flex-col items-left justify-center gap-4 text-white  [&>*]:mx-40 */}
-        <div className="  grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] ">
+        <div className="  grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] mt-[10%]  mx-10">
           <div
             className="text-4xl   
-          lg:text-6xl md:text-4xl font-[500] text-[#EEEEEE] mb-4 mt-12 "
+          lg:text-6xl md:text-4xl font-[500] text-[#EEEEEE] mb-4 mt-12  "
           >
             {/* title */} Sharpen your thinking.
           </div>
@@ -23,7 +23,6 @@ function Sharpe() {
               {/* subtitle */} The free and flexible app for your private
               thoughts.
             </div>
-            <div> </div>
           </div>
           <div className="flex items-center  w-50% gap-4 my-3  mb-8">
             {/* buttons */}
@@ -40,7 +39,7 @@ function Sharpe() {
             <img src={images} alt="" />
           </div>
         </div>
-        <section className="block lg:flex justify-center items-center gap-8 lg:mx-[10%] md:mx-[3%]">
+        <section className="block lg:flex justify-center items-center gap-8  my-3 lg:mx-[15%] md:mx-[5%]">
           <div className="mx-20 md:mx-10 flex-1">
             <div className="border-b py-4 border-[#bcbcbc]">
               {" "}

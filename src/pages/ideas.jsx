@@ -10,8 +10,8 @@ function Ideas() {
   const ImagesStyle = "w-10 h-10 gap-2  md:my-2 text-[#7c3aea]";
   return (
     <>
-      <div className="text-white  bg-[#000000]  md:px-[5%]   lg:px-[5%] ">
-        <div className=" mx-[5%]   m-5  md:w-[70%] lg:w-[55%]  md:ml-50">
+      <div className="text-white  md:px-[5%]  bg-[#0f0f0f]  lg:px-[5%] ">
+        <div className=" mx-[15%]   m-5   md:w- lg:w-[55%] ">
           <h2 className=" text-[#EEEEEE text-5xl py-5 font-[600]">
             {" "}
             Spark ideas.
@@ -23,7 +23,7 @@ function Ideas() {
           </p>
         </div>
         {/* grid cols */}
-        <div className="grid grid-cols-1  md:grid-cols-2   md:h  lg:grid-cols-2 ">
+        <div className="grid grid-cols-1  md:grid-cols-2     lg:grid-cols-2  my-3 lg:mx-[10%] md:mx-[5%] mt-[10%]  mx-10 ">
           <div className="bg-[#242424]  m-2  p-6 rounded-xl  ">
             <h4 className="text-lg font-[700]">Links</h4>
             <p className="text-[18px]  text-[#BCBCBC] font-[600] mb-10 ">
@@ -216,13 +216,13 @@ function Ideas() {
         </div>
         <div className=" my-10 mx-10 ">
           <div className="lg:flex items-center justify-center gap-5">
-            <section className=" flex-1">
+            <section className=" flex-1 lg:order-1 lg:w-1/2">
               <div className=" ">
-                <div className="w-[90%]">
+                <div className="lg:ml-[5rem]">
                   <h2 className=" text-[#EEEEEE text-5xl py-5 font-[600]">
                     Sync securely.
                   </h2>
-                  <h4 className=" text-2xl text-[#BCBCBC]  text-left">
+                  <h4 className=" text-2xl text-[#BCBCBC]  text-left ">
                     Access your notes on any device, secured with end-to-end
                     encryption.{" "}
                     <a className="text-[#7c3aea] cursor-pointer" href="#">
@@ -231,8 +231,8 @@ function Ideas() {
                     </a>
                   </h4>
                 </div>
-                <div className=" my-4 items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl">
-                  <Users size={50} className=" text-[#7c3aea]" />
+                <div className=" my-4  w-[70%]  items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl lg:ml-[5rem]">
+                  <Users size={90} className=" text-[#7c3aea]" />
                   <h3>
                     {" "}
                     Collaboration. Work with your team on shared files without
@@ -240,8 +240,8 @@ function Ideas() {
                   </h3>
                   {/* frist dev */}
                 </div>
-                <div className=" my-4 items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl">
-                  <Settings size={50} className="  text-[#7c3aea]" />
+                <div className=" my-4  w-[80%] items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] lg:ml-[5rem] rounded-xl">
+                  <Settings size={90} className="  text-[#7c3aea]" />
                   <h3>
                     Fine-grained control. Decide which files and preferences you
                     want to sync to which devices.{" "}
@@ -250,8 +250,8 @@ function Ideas() {
                   {/* 2nd dev */}
                 </div>
 
-                <div className=" my-4 items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl">
-                  <Clock size={50} className="   text-[#7c3aea]" />
+                <div className=" my-4  w-[80%] items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] lg:ml-[5rem]  rounded-xl">
+                  <Clock size={90} className="   text-[#7c3aea]" />
                   <h3>
                     {" "}
                     Version history. Easily track changes between revisions,
@@ -263,8 +263,8 @@ function Ideas() {
             </section>
 
             {/*  sections  for  the images and ariticle */}
-            <article className="flex-1">
-              <img src={SYncImg} alt="" />
+            <article className="flex-1 lg:order-1 lg:w-1/2">
+              <img src={SYncImg} className="w-full h-auto" alt="" />
             </article>
           </div>
         </div>
