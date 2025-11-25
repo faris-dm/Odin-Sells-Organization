@@ -7,8 +7,7 @@ function Sharpe() {
   const H5_text = "text-[#bcbcbc] text-[24px]";
   return (
     <>
-      <div className="mb-[10rem]">
-        {/* start  [&>*]:mx-10 md:[&>*]:mx-20 lg:[&>*]:mx-50  flex flex-col items-left justify-center gap-4 text-white  [&>*]:mx-40 */}
+      <div className="mb-[10rem]  bg-[#0f0f0f]">
         <div className="  grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] mt-[10%]  mx-10">
           <div
             className="text-4xl   

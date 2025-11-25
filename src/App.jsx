@@ -5,7 +5,6 @@ import "./App.css";
 import NavBar from "./pages/NavBar";
 import Sharpe from "./pages/Sharpe";
 import Ideas from "./pages/ideas";
-
 import Publish from "./pages/publish";
 
 function App() {
