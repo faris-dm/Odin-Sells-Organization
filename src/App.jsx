@@ -15,9 +15,9 @@ function App() {
     <>
       <div>
         <NavBar />
-        {/* <Sharpe /> */}
-        {/* <Ideas /> */}
-        {/* <Publish /> */}
+        <Sharpe />
+        <Ideas />
+        <Publish />
       </div>
     </>
   );
