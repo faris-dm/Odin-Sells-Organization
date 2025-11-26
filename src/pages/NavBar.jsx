@@ -68,7 +68,7 @@ function NavBar() {
         </nav>
       }
       {NotClicked && (
-        <div className="text-white mt-20 z-10 md:hidden lg:hidden transition duration-700 ease-in-out ">
+        <div className=" translate-x-0 opacity-100 text-white mt-20 z-10 md:hidden lg:hidden transition duration-700 ease-in-out ">
           <div className={GridStyles}>
             <div>
               <h3 className={TextStyle}>Download</h3>
