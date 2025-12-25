@@ -23,196 +23,140 @@ function Ideas() {
           </p>
         </div>
         {/* grid cols */}
-        <div className="grid grid-cols-1  md:grid-cols-2     lg:grid-cols-2   lg:mx-[10%] md:mx-[5%]   mx-10 ">
-          <div className="bg-[#242424]  m-2  p-6 rounded-xl  ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-[5%] lg:px-[10%] w-full">
+          {/* CARD 1: LINKS WITH FLOATING MENU */}
+          <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full overflow-hidden">
             <h4 className="text-lg font-bold">Links</h4>
-            <p className="text-[18px]  text-[#BCBCBC] font-semibold mb-10 ">
+            <p className="text-[18px] text-[#BCBCBC] font-semibold mb-10">
               Create connections between your notes. Link anything and
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
             </p>
 
-            <div className="bg-[#171717] text-sm md:h-[50%] m-1 p-4 md:w-full  rounded-l-xl z-0 rounded-b-sm relative">
-              <p className=" text-normal font-[400]   md:mb-[14rem] mb-[10rem] px-6">
-                {" "}
-                <p className="py-2 z--1">
-                  In
+            <div className="bg-[#171717] text-sm p-4 rounded-xl relative min-h-[400px] flex-grow">
+              <div className="text-normal font-normal px-2 md:px-6">
+                <div className="py-2">
+                  In{" "}
                   <a
-                    className="text-[#7c3aed] px-1 underline hover:text[#7c3aea] "
+                    className="text-[#7c3aed] px-1 underline hover:text-[#7c3aea]"
                     href="#"
                   >
                     Meditations on First Philosophy
-                  </a>{" "}
-                  the philosopher René Descartes describes a series of doubts
-                  about the nature of reality, arriving at the famous phrase:
-                </p>{" "}
+                  </a>
+                  the philosopher René Descartes describes a series of doubts...
+                </div>
                 <ul className="list-disc mx-5">
-                  <li className="  text-[#7c3aea] underline">[thin]</li>
+                  <li className="text-[#7c3aea] underline">[thin]</li>
                 </ul>
-                he discuess the value of Knowladge in the life related to mind
-              </p>
-              <div className="absolute bg-[#262626] w-70 py-2  rounded-lg h-47 bottom-[18%] md:left-8 md:w-65 left-8 ">
-                <div className="px-4 py-1 text-sm   mb-[3px] hover:bg-[#404040]  mx-1 rounded-lg ">
-                  {" "}
-                  I{" "}
-                  <label className="font-[600]" htmlFor="">
-                    think
-                  </label>{" "}
-                  therefore i am{" "}
-                </div>
-                <div className="px-4 py-1 text-[16px]  mb-[3px]  hover:bg-[#404040]  mx-1 rounded-lg ">
-                  {" "}
-                  just{" "}
-                  <label className="font-[600]" htmlFor="">
-                    think
-                  </label>{" "}
-                  about it{" "}
-                </div>
-                <div className="px-4  mb-[3px] py-1 text-[] hover:bg-[#404040]  mx-1 rounded-lg">
-                  {" "}
-                  <p className="text-[16px]">
-                    {" "}
-                    <label htmlFor="" className="font-[600] text-white">
-                      Thinking
-                    </label>{" "}
-                    fast & slow
-                  </p>
-                  <p className="text-sm">Books/</p>
-                </div>
+                <p className="mt-2">
+                  he discusses the value of Knowledge in the life related to
+                  mind
+                </p>
+              </div>
 
-                <div className="px-4  mb-[3px] py-1 text-[16px]   hover:bg-[#404040]  mx-1 rounded-lg">
-                  {" "}
-                  the{" "}
-                  <label className="font-[600] text-[#fff]" htmlFor="">
-                    Thing
-                  </label>{" "}
-                  <p className="text-sm  ">Movies/</p>
+              {/* FLOATING MENU - Fixed to be responsive inside the card */}
+              <div className="absolute bottom-4 left-4 right-4 bg-[#262626] py-2 rounded-lg border border-[#404040] shadow-xl">
+                <div className="px-4 py-1 text-sm hover:bg-[#404040] rounded-lg mx-1">
+                  I <strong>think</strong> therefore i am
+                </div>
+                <div className="px-4 py-1 text-[16px] hover:bg-[#404040] rounded-lg mx-1">
+                  just <strong>think</strong> about it
+                </div>
+                <div className="px-4 py-1 hover:bg-[#404040] rounded-lg mx-1">
+                  <p className="text-[16px]">
+                    <strong>Thinking</strong> fast & slow
+                  </p>
+                  <p className="text-xs text-gray-400">Books/</p>
+                </div>
+                <div className="px-4 py-1 hover:bg-[#404040] rounded-lg mx-1">
+                  the <strong>Thing</strong>
+                  <p className="text-xs text-gray-400">Movies/</p>
                 </div>
               </div>
             </div>
-
-            {/* frist grid */}
           </div>
 
-          <div className="bg-[#242424]  m-4  p-6 rounded-xl  ">
-            {" "}
+          {/* CARD 2: LINKS SIMPLE */}
+          <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full">
             <h4 className="text-lg font-[700]">Links</h4>
-            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10 ">
+            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
               Create connections between your notes. Link anything and
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
             </p>
-            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
-              <p className="  text-normal font-[400]   md:mb-[14rem] mb-[10rem] px-6">
-                {" "}
+            <div className="bg-[#171717] text-sm p-4 rounded-xl flex-grow min-h-[200px]">
+              <p className="px-4 md:px-6 opacity-80">
                 In Meditations on First Philosophy the philosopher René
                 Descartes describes a series of doubts about the nature of
-                reality, arriving at the famous phrase:{" "}
+                reality...
               </p>
             </div>
-            {/* frist grid */}
           </div>
 
-          <div className="bg-[#242424]  m-4  p-6 rounded-xl ">
-            {" "}
+          {/* CARD 3: PLUGINS */}
+          <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full">
             <h4 className="text-lg font-[700]">Plugins</h4>
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
-              space .with thousands of plugins and our open API ,it is to tailer
-              Odin to fit your personal workflow{" "}
-              <a className="text-[#7c3aea] cursor-pointer" href="#">
+              Space with thousands of plugins and our open API, it is to tailor
+              Odin to fit your personal workflow.
+              <a className="text-[#7c3aea] cursor-pointer ml-1" href="#">
                 Learn More
               </a>
             </p>
-            <div className="bg-[#171717] text-sm md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
-              <p className="mb-[5rem]">
-                <div>
-                  <div>{/* lecture */}</div>
-                  <div>{/* images */}</div>
-                </div>
-              </p>
+            <div className="bg-[#171717] text-sm p-4 rounded-xl flex-grow min-h-[150px]">
+              {/* Content for Plugins goes here */}
             </div>
-            {/* frist grid */}
           </div>
 
-          <div className="bg-[#242424]  m-4  p-6 rounded-xl ">
-            {" "}
+          {/* CARD 4: COMMUNITY PLUGINS WITH SWITCHES */}
+          <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full">
             <h4 className="text-lg font-[700]">Links</h4>
             <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
               Visualize the relationships between your notes. Find hidden
-              patterns in your thinking through a visually engaging and
-              interactive graph.
+              patterns in your thinking.
             </p>
-            <div className="bg-[#171717] text-sm h-[50%] md:h-[60%] m-1 p-4 md:w-[100%]  rounded-l-xl z-0 rounded-b-sm relative">
-              <p className="mb-[10rem] ">
-                {" "}
-                <div>
-                  <h2>Community Plugins</h2>
-                  <div className="flex justify-between py-3 border-b">
-                    <div className="text-xs">
-                      <p className="">
-                        Calender{" "}
-                        <label className="text-[#b0b0b0]  ">by Lima cain</label>
-                      </p>
-                      <p className="text-[#b0b0b0]">
-                        Calender vieew fo your daily notes
-                      </p>
-                    </div>
-                    <Switch />
-                  </div>
-                  {/* frist setion */}
-                  <div className="flex justify-between py-3 border-b">
-                    <div className="">
-                      <p className="">
-                        Kanban by{" "}
-                        <label className="text-[#b0b0b0]  ">
-                          Matthew Meyers
-                        </label>
-                      </p>
-                      <p className="text-[#b0b0b0]  ">
-                        {" "}
-                        Markdown-backed kanba boards
-                      </p>
-                    </div>
-                    <Switch />
-                  </div>
-                  {/* 3rd section */}
-                  <div className="flex justify-between py-3 border-b">
+            <div className="bg-[#171717] text-sm p-6 rounded-xl flex-grow">
+              <h2 className="font-bold text-base mb-4">Community Plugins</h2>
+              <div className="space-y-4">
+                {/* Switch Items */}
+                {[
+                  {
+                    name: "Calendar",
+                    author: "Lima cain",
+                    desc: "Calendar view for your daily notes",
+                  },
+                  {
+                    name: "Kanban",
+                    author: "Matthew Meyers",
+                    desc: "Markdown-backed kanban boards",
+                  },
+                  {
+                    name: "Outliner",
+                    author: "Viacheslav cain",
+                    desc: "Advanced outliner for your data",
+                  },
+                ].map((item, i) => (
+                  <div
+                    key={i}
+                    className="flex justify-between items-center py-2 border-b border-[#333] last:border-0"
+                  >
                     <div>
-                      <p>
-                        Outliner by{" "}
-                        <label className="text-[#b0b0b0]  ">
-                          by Viacheslave cain
-                        </label>
+                      <p className="text-white">
+                        {item.name}{" "}
+                        <span className="text-[#b0b0b0] text-[10px]">
+                          by {item.author}
+                        </span>
                       </p>
-                      <p className="text-[#b0b0b0]  ">
-                        Advanced queries for the data{" "}
-                      </p>
+                      <p className="text-[#b0b0b0] text-[11px]">{item.desc}</p>
                     </div>
-                    <Switch />
-                  </div>
-                  {/*  fourth section */}
-                  <div className="flex justify-between py-3">
-                    <div>
-                      <p>
-                        DaraView by{" "}
-                        <label className="text-[#b0b0b0]  ">
-                          by Michail Berham cain
-                        </label>
-                      </p>
-                      <p className="text-[#b0b0b0]  ">
-                        Advanved queries for data-obessed view
-                      </p>
+                    <div className="w-8 h-4 bg-[#7c3aea] rounded-full relative">
+                      <div className="absolute right-1 top-1 w-2 h-2 bg-white rounded-full"></div>
                     </div>
-                    <Switch />
                   </div>
-                </div>
-              </p>
+                ))}
+              </div>
             </div>
-            {/* frist grid */}
           </div>
-          {/*  final touch  */}
-
-          {/*  three  ends here */}
         </div>
         <div className=" my-10 mx-10 ">
           <div className="lg:flex items-center justify-center gap-5">
