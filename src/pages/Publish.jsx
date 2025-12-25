@@ -1,6 +1,6 @@
 import React from "react";
 // Remove these missing imports or make sure the files exist:
-// import DarkImages from "./images/odinImages.png";
+import DarkImages from "./images/odinImages.png";
 // import Logo from "./desk-lamp-svgrepo-com.svg";
 // import SYncImg from "./images/syOne.png";
 // const discord = "./images/discord.png";
@@ -79,7 +79,7 @@ function Publish() {
         </div>
 
         {/* Comment out the image section until you have the actual file */}
-        {/*
+
         <div className=" mb-10">
           <img className={ScreenImages} src={DarkImages} alt="" />
           <p className={ScreenText}>
@@ -93,7 +93,6 @@ function Publish() {
             </a>
           </p>
         </div>
-        */}
 
         <div>
           <div className="text-center">
@@ -105,33 +104,37 @@ function Publish() {
             </button>
           </div>
 
-          <div className="block md:flex items-center gap-4 ">
-            <div className=" bg-[#333] m-2 rounded-lg p-3">
-              <h2 className="text-xl font-normal text-[#fff] py-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
+            {/* Card 1: Discord */}
+            <div className="bg-[#333] rounded-xl p-6 flex flex-col h-full">
+              <h2 className="text-xl font-medium text-white mb-4">
                 Join Us On Discord
               </h2>
-              <p className="text-[#bcbcbc]  text-lg ">
-                Get Help Ask question,meet other Odin user and Learn about their
-                startup{" "}
+              <p className="text-[#bcbcbc] text-lg leading-relaxed">
+                Get Help, ask questions, meet other Odin users and learn about
+                their startups.
               </p>
             </div>
 
-            <div className="bg-[#333]  rounded-lg p-3 mb-8 mt-6 ">
-              <h2 className="text-xl font-normal text-[#fff] py-5 ">
+            {/* Card 2: Forum */}
+            <div className="bg-[#333] rounded-xl p-6 flex flex-col h-full">
+              <h2 className="text-xl font-medium text-white mb-4">
                 Discussion Forum
               </h2>
-              <p className="text-[#bcbcbc] text-lg">
-                Post feature request Report bags and explore with all
+              <p className="text-[#bcbcbc] text-lg leading-relaxed">
+                Post feature requests, report bugs, and explore with the
+                community.
               </p>
             </div>
 
-            <div className="bg-[#333] m-2 rounded-lg p-3">
-              <h2 className="text-xl font-normal text-[#fff] py-5">
-                Developer docs
+            {/* Card 3: Docs */}
+            <div className="bg-[#333] rounded-xl p-6 flex flex-col h-full">
+              <h2 className="text-xl font-medium text-white mb-4">
+                Developer Docs
               </h2>
-              <p className="text-[#bcbcbc]  text-lg ">
-                Learn how to bulid your own Odin using open API and
-                Documantation
+              <p className="text-[#bcbcbc] text-lg leading-relaxed">
+                Learn how to build your own Odin using open APIs and
+                documentation.
               </p>
             </div>
           </div>

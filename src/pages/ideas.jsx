@@ -11,7 +11,7 @@ function Ideas() {
   return (
     <>
       <div className="text-white  md:px-[5%]  bg-[#0f0f0f]  lg:px-[5%] ">
-        <div className=" mx-[15%]   m-5   md:w- lg:w-[55%] ">
+        <div className=" mx-[15%]   m-5    lg:w-[55%] ">
           <h2 className=" text-[#EEEEEE] text-5xl py-5 font-[600]">
             {" "}
             Spark ideas.
@@ -23,7 +23,7 @@ function Ideas() {
           </p>
         </div>
         {/* grid cols */}
-        <div className="grid grid-cols-1  md:grid-cols-2     lg:grid-cols-2  my-3 lg:mx-[10%] md:mx-[5%] mt-[10%]  mx-10 ">
+        <div className="grid grid-cols-1  md:grid-cols-2     lg:grid-cols-2   lg:mx-[10%] md:mx-[5%]   mx-10 ">
           <div className="bg-[#242424]  m-2  p-6 rounded-xl  ">
             <h4 className="text-lg font-[700]">Links</h4>
             <p className="text-[18px]  text-[#BCBCBC] font-[600] mb-10 ">

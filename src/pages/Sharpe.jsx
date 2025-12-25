@@ -83,7 +83,7 @@ function Sharpe() {
               <div className="block text-center">
                 <h4 className="text-white text-4xl font-[700] py-3">Odin</h4>
                 <h6 className=" text-2xl text-white">Free without limit.</h6>
-                <p className="text-[#8B5CF3] text-xl hover:text-white duration-400 ease-in-out   ">
+                <p className="text-[#8B5CF3] text-xl hover:text-white duration-400 ease-in-out  font-bold  ">
                   Download Now
                 </p>
               </div>
