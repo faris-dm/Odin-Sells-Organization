@@ -8,29 +8,29 @@ function Sharpe() {
   return (
     <>
       <div className="mb-[10rem]  bg-[#0f0f0f]">
-        <div className="  grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] mt-[10%]  mx-10">
+        <div className="grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] mt-[10%]  mx-10">
           <div
-            className="text-4xl   
-          lg:text-6xl md:text-4xl font-[500] text-[#EEEEEE] mb-4 mt-12  "
+            className=" text-[70px] 
+          lg:text-6xl md:text-4xl font-[500] text-[#EEEEEE] mb-4 mt-12  text-center "
           >
             {/* title */} Sharpen your thinking.
           </div>
 
-          <div className="flex  items-center justify-between  gap-40 text-[#B6B6B6] text-4xl mx-3 font-[400] py-2 ">
-            <div className=" text-2xl w-[70%]">
+          <div className=" block md:flex  items-center justify-between  gap-40 text-[#B6B6B6] text-4xl  font-[400] py-2 ">
+            <div className=" text-2xl  w-[70%] text-center hidden md:block ">
               {" "}
               {/* subtitle */} The free and flexible app for your private
               thoughts.
             </div>
           </div>
-          <div className="flex items-center  w-50% gap-4 my-3  mb-8">
-            {/* buttons */}
-
-            <div className="bg-[#8B5CF3] text-xl font-[500] px-8 py-4 rounded-lg  opacity-80 hover:opacity-100">
-              {" "}
+          <div className="flex flex-col items-center justify-center gap-4 my-3 mb-40 md:mb-10 sm:flex-row sm:items-start sm:justify-start w-full sm:w-1/2 ">
+            {/* Button 1: Always Visible */}
+            <div className="bg-[#8B5CF3] text-xl font-[500] px-8 py-4 rounded-lg opacity-80 hover:opacity-100 cursor-pointer text-center">
               Get Odin for Window
             </div>
-            <div className="text-xl text-[#8B5CF6] hover:text-[#b0b0b0] font-500">
+
+            {/* Button 2: Hidden on mobile, visible above sm */}
+            <div className="hidden sm:block text-xl text-[#8B5CF6] hover:text-[#b0b0b0] font-500 cursor-pointer">
               More Platform
             </div>
           </div>

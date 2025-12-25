@@ -12,7 +12,7 @@ function Ideas() {
     <>
       <div className="text-white  md:px-[5%]  bg-[#0f0f0f]  lg:px-[5%] ">
         <div className=" mx-[15%]   m-5   md:w- lg:w-[55%] ">
-          <h2 className=" text-[#EEEEEE text-5xl py-5 font-[600]">
+          <h2 className=" text-[#EEEEEE] text-5xl py-5 font-[600]">
             {" "}
             Spark ideas.
           </h2>
