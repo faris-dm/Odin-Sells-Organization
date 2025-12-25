@@ -5,7 +5,7 @@ import "./App.css";
 import NavBar from "./pages/NavBar.jsx";
 import Sharpe from "./pages/Sharpe.jsx";
 import Ideas from "./pages/ideas.jsx";
-import Publish from "./pages/publish.jsx";
+import Publish from "./pages/Publish.jsx";
 
 function App() {
   const [count, setCount] = useState(0);

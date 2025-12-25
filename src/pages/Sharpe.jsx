@@ -8,34 +8,47 @@ function Sharpe() {
   return (
     <>
       <div className="mb-[10rem]  bg-[#0f0f0f]">
-        <div className="grid grid-cols-1 items-center justify-center  my-3 lg:mx-[15%] md:mx-[5%] mt-[10%]  mx-10">
-          <div
-            className=" text-[70px] 
-          lg:text-6xl md:text-4xl font-[500] text-[#EEEEEE] mb-4 mt-12  text-center "
+        {/* Parent Container: Centers everything by default, switches to Left at md */}
+        {/* Parent Container */}
+        <div className="flex flex-col items-center md:items-start justify-center my-3 lg:mx-[15%] md:mx-[10%] mt-[10%] mx-6">
+          {/* Main Heading: Added leading-tight and py-6 */}
+          <h1
+            className="text-[50px] lg:text-7xl md:text-5xl font-medium text-[#EEEEEE] 
+                 text-center md:text-left 
+                 leading-[1.1] py-8 md:py-10"
           >
-            {/* title */} Sharpen your thinking.
+            Sharpen your <br className="md:hidden" /> thinking.
+          </h1>
+
+          {/* Subtitle: Added mb-10 for spacing */}
+          <p
+            className="hidden md:block text-[#B6B6B6] text-xl lg:text-2xl font-normal 
+                md:text-left max-w-[600px] mb-10 leading-relaxed"
+          >
+            The free and flexible app for your private thoughts.
+          </p>
+
+          {/* Buttons Container: Added gap-8 to prevent clashing */}
+          <div className="flex flex-col items-center sm:flex-row md:justify-start gap-8 w-full mb-20">
+            <button
+              className="bg-[#8B5CF3] text-xl font-medium px-10 py-5 rounded-lg 
+                       opacity-90 hover:opacity-100 transition-all transform hover:scale-105 cursor-pointer"
+            >
+              Get Odin for Windows
+            </button>
+
+            <button className="hidden sm:block text-xl text-[#8B5CF6] hover:text-[#b0b0b0] font-medium cursor-pointer">
+              More Platforms
+            </button>
           </div>
 
-          <div className=" block md:flex  items-center justify-between  gap-40 text-[#B6B6B6] text-4xl  font-[400] py-2 ">
-            <div className=" text-2xl  w-[70%] text-center hidden md:block ">
-              {" "}
-              {/* subtitle */} The free and flexible app for your private
-              thoughts.
-            </div>
-          </div>
-          <div className="flex flex-col items-center justify-center gap-4 my-3 mb-40 md:mb-10 sm:flex-row sm:items-start sm:justify-start w-full sm:w-1/2 ">
-            {/* Button 1: Always Visible */}
-            <div className="bg-[#8B5CF3] text-xl font-[500] px-8 py-4 rounded-lg opacity-80 hover:opacity-100 cursor-pointer text-center">
-              Get Odin for Window
-            </div>
-
-            {/* Button 2: Hidden on mobile, visible above sm */}
-            <div className="hidden sm:block text-xl text-[#8B5CF6] hover:text-[#b0b0b0] font-500 cursor-pointer">
-              More Platform
-            </div>
-          </div>
-          <div className="mb-5">
-            <img src={images} alt="" />
+          {/* Hero Image */}
+          <div className="w-full mt-10">
+            <img
+              src={images}
+              alt="App Preview"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
         </div>
         <section className="block lg:flex justify-center items-center gap-8  my-3 lg:mx-[15%] md:mx-[5%]">
@@ -83,7 +96,7 @@ function Sharpe() {
               <div className="block text-center">
                 <h4 className="text-white text-4xl font-[700] py-3">Odin</h4>
                 <h6 className=" text-2xl text-white">Free without limit.</h6>
-                <p className="text-[#8B5CF3] text-xl hover:text-white duration-400 ease-in-out  font-bold  ">
+                <p className="text-[#8B5CF3] text-xl hover:text-white duration-400 ease-in-out  font-bold">
                   Download Now
                 </p>
               </div>
