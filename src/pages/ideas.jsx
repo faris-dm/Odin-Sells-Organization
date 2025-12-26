@@ -33,7 +33,7 @@ function Ideas() {
               own personal Wikipedia.
             </p>
 
-            <div className="bg-[#171717] text-sm p-4 rounded-xl relative min-h-[400px] flex-grow">
+            <div className="bg-[#171717] text-sm p-4 rounded-xl relative min-h-[400px] grow">
               <div className="text-normal font-normal px-2 md:px-6">
                 <div className="py-2">
                   In{" "}
@@ -78,13 +78,13 @@ function Ideas() {
 
           {/* CARD 2: LINKS SIMPLE */}
           <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full">
-            <h4 className="text-lg font-[700]">Links</h4>
-            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
+            <h4 className="text-lg font-bold ">Links</h4>
+            <p className="text-[18px] text-[#BCBCBC] font-semi-bold mb-10">
               Create connections between your notes. Link anything and
               everything — ideas, people, places, books, and beyond. Invent your
               own personal Wikipedia.
             </p>
-            <div className="bg-[#171717] text-sm p-4 rounded-xl flex-grow min-h-[200px]">
+            <div className="bg-[#171717] text-sm p-4 rounded-xl grow min-h-[200px]">
               <p className="px-4 md:px-6 opacity-80">
                 In Meditations on First Philosophy the philosopher René
                 Descartes describes a series of doubts about the nature of
@@ -95,27 +95,27 @@ function Ideas() {
 
           {/* CARD 3: PLUGINS */}
           <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full">
-            <h4 className="text-lg font-[700]">Plugins</h4>
-            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
+            <h4 className="text-lg boldfont-">Plugins</h4>
+            <p className="text-[18px] text-[#BCBCBC] font-semibold mb-10">
               Space with thousands of plugins and our open API, it is to tailor
               Odin to fit your personal workflow.
               <a className="text-[#7c3aea] cursor-pointer ml-1" href="#">
                 Learn More
               </a>
             </p>
-            <div className="bg-[#171717] text-sm p-4 rounded-xl flex-grow min-h-[150px]">
+            <div className="bg-[#171717] text-sm p-4 rounded-xl grow min-h-[150px]">
               {/* Content for Plugins goes here */}
             </div>
           </div>
 
           {/* CARD 4: COMMUNITY PLUGINS WITH SWITCHES */}
           <div className="bg-[#242424] p-6 rounded-xl flex flex-col h-full">
-            <h4 className="text-lg font-[700]">Links</h4>
-            <p className="text-[18px] text-[#BCBCBC] font-[600] mb-10">
+            <h4 className="text-lg font-bold">Links</h4>
+            <p className="text-[18px] text-[#BCBCBC] font-semiold mb-10">
               Visualize the relationships between your notes. Find hidden
               patterns in your thinking.
             </p>
-            <div className="bg-[#171717] text-sm p-6 rounded-xl flex-grow">
+            <div className="bg-[#171717] text-sm p-6 rounded-xl grow">
               <h2 className="font-bold text-base mb-4">Community Plugins</h2>
               <div className="space-y-4">
                 {/* Switch Items */}
@@ -162,8 +162,8 @@ function Ideas() {
           <div className="lg:flex items-center justify-center gap-5">
             <section className=" flex-1 lg:order-1 lg:w-1/2">
               <div className=" ">
-                <div className="lg:ml-[5rem]">
-                  <h2 className=" text-[#EEEEEE text-5xl py-5 font-[600]">
+                <div className="lg:ml-">
+                  <h2 className=" text-[#EEEEEE text-5xl py-5 font-semibold">
                     Sync securely.
                   </h2>
                   <h4 className=" text-2xl text-[#BCBCBC]  text-left ">
@@ -175,7 +175,7 @@ function Ideas() {
                     </a>
                   </h4>
                 </div>
-                <div className=" my-4  w-[70%]  items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl lg:ml-[5rem]">
+                <div className=" my-4  w-[70%]  items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] rounded-xl lg:ml-20">
                   <Users size={90} className=" text-[#7c3aea]" />
                   <h3>
                     {" "}
@@ -184,7 +184,7 @@ function Ideas() {
                   </h3>
                   {/* frist dev */}
                 </div>
-                <div className=" my-4  w-[80%] items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] lg:ml-[5rem] rounded-xl">
+                <div className=" my-4  w-[80%] items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] lg:ml-20 rounded-xl">
                   <Settings size={90} className="  text-[#7c3aea]" />
                   <h3>
                     Fine-grained control. Decide which files and preferences you
@@ -194,7 +194,7 @@ function Ideas() {
                   {/* 2nd dev */}
                 </div>
 
-                <div className=" my-4  w-[80%] items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] lg:ml-[5rem]  rounded-xl">
+                <div className=" my-4  w-[80%] items-center  flex gap-2  py-4 px-3 hover:bg-[#242424] lg:ml-20  rounded-xl">
                   <Clock size={90} className="   text-[#7c3aea]" />
                   <h3>
                     {" "}

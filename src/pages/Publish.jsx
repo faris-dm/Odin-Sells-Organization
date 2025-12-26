@@ -142,20 +142,20 @@ function Publish() {
           <div className=" md:grid grid-cols-2">
             <div className="grid grid-cols-2 my-10">
               <div>
-                <h2 className="text-[#bcbcbc] mb-3  font-[500] text-[15px] ">
+                <h2 className="text-[#bcbcbc] mb-3  font-medium text-[15px] ">
                   Get started
                 </h2>
-                <h2 className="py-1 font-[500] text-[15px]">Download</h2>
-                <h2 className="py-1 font-[500] text-[15px]">Pricing</h2>
-                <h2 className="py-1 font-[500] text-[15px]"> Enterprise</h2>
-                <h2 className="py-1 font-[500] text-[15px]">Account</h2>
+                <h2 className="py-1 font-medium text-[15px]">Download</h2>
+                <h2 className="py-1 font-medium text-[15px]">Pricing</h2>
+                <h2 className="py-1 font-medium text-[15px]"> Enterprise</h2>
+                <h2 className="py-1 font-medium text-[15px]">Account</h2>
               </div>
 
               <div>
                 <h2 className=" text-[#bcbcbc] mb-3 ">Learn</h2>
-                <h2 className="py-1 font-[500] text-[15px]"> Help</h2>
-                <h2 className="py-1 font-[500] text-[15px]"> Developers</h2>
-                <h2 className="py-1 font-[500] text-[15px]">Changelog </h2>
+                <h2 className="py-1 font-medium text-[15px]"> Help</h2>
+                <h2 className="py-1 font-medium text-[15px]"> Developers</h2>
+                <h2 className="py-1 font-medium text-[15px]">Changelog </h2>
                 <h2 className="py-1 font-[500] text-[15px]"> About</h2>
                 <h2 className="py-1 font-[500] text-[15px]">Roadmap </h2>
                 <h2 className="py-1 font-[500] text-[15px]"> Blog</h2>
